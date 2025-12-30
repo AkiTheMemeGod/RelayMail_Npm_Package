@@ -1,0 +1,42 @@
+{
+  "name": "relaymail",
+  "version": "1.0.1",
+  "description": "A simple and reliable email sending client for RelayMail API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email",
+    "smtp",
+    "mail",
+    "relaymail",
+    "send-email",
+    "email-api"
+  ],
+  "author": "AkiTheMemeGod",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "relaymail": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/relaymail"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
