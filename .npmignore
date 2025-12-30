@@ -1,0 +1,13 @@
+src/
+tsconfig.json
+.env
+*.log
+node_modules/
+.git/
+.vscode/
+app.py
+models.py
+templates/
+static/
+*.db
+__pycache__/
