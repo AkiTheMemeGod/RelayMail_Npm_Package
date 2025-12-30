@@ -1,6 +1,6 @@
 {
   "name": "relaymail",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and reliable email sending client for RelayMail API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,12 +24,11 @@
     "typescript": "^5.3.0"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "relaymail": "^1.0.1"
+    "axios": "^1.6.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/relaymail"
+    "url": "https://github.com/AkiTheMemeGod/relaymail"
   },
   "files": [
     "dist",
